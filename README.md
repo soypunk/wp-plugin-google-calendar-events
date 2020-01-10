@@ -10,7 +10,7 @@ This is subject to change and I won't be updating this documentation to follow a
 
 1. Open your Google Calendar app page using your Google account.
 2. Navigate to your subscribed/available Google calendars list (usually bottom left side).
-3. To get to your calendar settings, hover over the calendar you wish to work on and click the three vertical dots that appear to the right – this will bring up a dropdown menu, click Settings and sharing.
+3. To get to your calendar settings, use your mouse point to hover over the calendar you wish to work with and click the three vertical dots that appear to the right – this will bring up a dropdown menu, click Settings and sharing.
 4. A new page will open. Find the Calendar ID at the bottom under the Integrate Calendar section - copy that ID into your `index.php` file (line #16.)
 
 ## Download your API access JSON file
