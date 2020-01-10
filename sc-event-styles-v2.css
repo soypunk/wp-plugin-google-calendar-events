@@ -1,0 +1,75 @@
+.cf:before,
+.cf:after   { content: " "; display: table; }
+.cf:after   { clear: both; }
+.cf         { *zoom: 1; }
+
+.sc-events {
+	margin-left: 0;
+	padding-left: 0;
+	background-color: #fff;
+	box-shadow: 0px 30px 90px rgba(0,0,0,0.14);
+	border-radius: 5px;
+	overflow: hidden;	
+	padding: 20px;
+}
+	.sc-events li {
+		list-style-type: none;
+	}
+	.sc-events .event-date {
+		background-color: #e7f1fb;
+		border: 1px solid #dde5d1;
+		float: left;
+		height: 3.75em;
+		margin-bottom: 1em;
+		text-align: center;
+		width: 3.75em;	
+	}
+		.sc-events .event-date .day {
+			display: block;
+			line-height: 1;
+			font-size: 0.85em;
+		}
+		.sc-events .event-date .date {
+			color: #333;
+			display: block;
+			font-size: 1.75em;
+			line-height: 1;
+		}
+		.sc-events .event-date .month {
+			display: block;
+			line-height: 1;
+			font-size: 0.85em;
+			margin-top: 0em;
+		}
+	.sc-events .event-details {
+		margin-left: 4.5em;
+		padding-bottom: .65em;
+	}
+	.long-form-events .event-details {
+		margin-left: 0;
+		padding-bottom: 1.3em;
+	}
+		.sc-events .event-details .event-title {
+			margin-bottom: 0;
+			font-weight: bold;
+			font-size: 1.15em;
+			line-height: 1.1;
+		}
+		.sc-events .event-details .event-time {
+			line-height: 1;
+			font-weight: normal;
+			font-size: 0.85em;
+			margin-top: 0;
+			color: #666;
+		}
+
+.home .post .post-meta .month {
+	line-height: 15px;
+}
+
+.home .sc-blog-posts .posts-container {
+	background-color: #fff;
+	box-shadow: 0px 30px 90px rgba(0,0,0,0.14);
+	border-radius: 5px;
+	padding: 20px;
+}
