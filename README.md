@@ -13,7 +13,7 @@ This is subject to change and I won't be updating this documentation to follow a
 3. To get to your calendar settings, use your mouse point to hover over the calendar you wish to work with and click the three vertical dots that appear to the right – this will bring up a dropdown menu, click Settings and sharing.
 4. A new page will open. Find the Calendar ID at the bottom under the Integrate Calendar section - copy that ID into your `index.php` file (line #16.)
 
-## Download your API access JSON file
+## Download your Service Account Key JSON file
 
 This is subject to change and I won't be updating this documentation to follow all of the whims of Google's design team. For now (January 2020) the following instructions work:
 
