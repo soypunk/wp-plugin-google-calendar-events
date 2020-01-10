@@ -23,7 +23,7 @@ This is subject to change and I won't be updating this documentation to follow a
 4. There should be a card for “Google Calendar API” - select that and then select the “Enable” button.
 5. Now we need to create the access tokens. Go to the Credentials section, press the Create Credentials button, and select the Service account key option.
 6. Now we need to define what can be accessed. Choose the New service account option and type in a name for the service account. In the Role field, select the Role Viewer option.
-7. Once you press the Create button, you'll receive a JSON file containing a private key and a client ID. That file should be uploaded along side this plugin and placed at the same level as the `index.php` file.
+7. Once you press the Create button, you'll receive a JSON file containing a private key and a client ID. That file should be uploaded along side this plugin and placed at the same level as the `index.php` file. Do *NOT* add that file to this code repository.
 
 ### Plugin Setup and Installation
 
