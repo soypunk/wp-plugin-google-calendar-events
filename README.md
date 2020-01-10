@@ -20,7 +20,7 @@ This is subject to change and I won't be updating this documentation to follow a
 1. Visit: https://console.cloud.google.com, sign in with the account that owns the desired Google Calendar.
 2. Select the "Create” button.
 3. Give this project a name that is memorable to you. Ex: "My Org's Wordpress Calendar” and you may need to select an organization - I’m not *quite* sure how you’ve set up your org's google account and it will differ slightly per account.
-4. There should be a card for “Google Calendar API” - select that and then select the “Enable” button on this screen:
+4. There should be a card for “Google Calendar API” - select that and then select the “Enable” button.
 5. Now we need to create the access tokens. Go to the Credentials section, press the Create Credentials button, and select the Service account key option.
 6. Now we need to define what can be accessed. Choose the New service account option and type in a name for the service account. In the Role field, select the Role Viewer option.
 7. Once you press the Create button, you'll receive a JSON file containing a private key and a client ID. That file should be uploaded along side this plugin and placed at the same level as the `index.php` file.
