@@ -180,7 +180,7 @@ add_action('widgets_init', function(){
 });
 
 class SC_GCal_Widget_Event_Detail extends WP_Widget {
-	/* this is a bit of hack - when an event link is clicked it takes you to a wordpress 
+	/* this is a bit of a hack - when an event link is clicked it takes you to a wordpress 
 	page /events/detail/ with a Google Calendar Event ID in the URL path. That ID is 
 	passed down to this widget which shows the full event details. */
 	private $client;
