@@ -219,7 +219,7 @@ class SC_GCal_Widget_Event_Detail extends WP_Widget {
         parent::__construct('sc_gcal_detail_widget', 'SC: Event Detail Widget',
             array(
                 'classname' => 'sc_gcal_detail_widget',
-                'description' => 'Shows events as a Detail from our calendar'
+                'description' => 'Shows an individual event\'s detail from our calendar'
             )
         );
         
