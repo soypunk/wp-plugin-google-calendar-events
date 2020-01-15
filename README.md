@@ -45,7 +45,7 @@ There's a sylesheet `sc-event-styles-v2.css` where all of the colors and layout 
 
 ## Assumptions
 
-This plugin was developed a rather small budget so it makes a number of assumptions to simplify matters:
+This plugin was developed on a rather small budget so it makes a number of assumptions to simplify matters:
 
 1. It assumes you have a page at the route `"/events/"` where you intend to direct folks for a more comprehensive listing of events. This could be resolved somewhat be moving this detail to a constant variable. It is unlikely that I'd go so far as to make a wordpress plugin settings page for this tool (which would be the most ideal solution.)
 2. The "event detail" widget is somewhat of a hack. The way we implemented was relying on  a third party plugin, [amr shortcode any widget](https://wordpress.org/plugins/amr-shortcode-any-widget/), that we embed on a page at the route `"/event/details/"` will it load the event content. There's surely a smarter way to do this but I'm not a WordPress5 plugin expert. What's happening here is the path is constructed as `/event/details/$UUID` where the UUID is the Google Calendar Event UUID so we can pull the correct info from the Google Calendar API.
